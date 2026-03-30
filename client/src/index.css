@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.survey-form-prose p {
+  margin: 0;
+}
+
+.survey-form-prose p + p {
+  margin-top: 0.35em;
+}
+
+.question-rich-editor .ProseMirror {
+  min-height: 88px;
+  outline: none;
+}
+
+.question-rich-editor .ProseMirror p {
+  margin: 0;
+}
+
+.question-rich-editor .ProseMirror p + p {
+  margin-top: 0.35em;
+}
